@@ -1,0 +1,8 @@
+Origin: Sticktron's Lab
+Label: Sticktron's Lab
+Suite: stable
+Version: 0.9
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Sticktron's personal repository.
