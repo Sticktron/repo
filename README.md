@@ -1,5 +1,5 @@
-cydia.sticktron
+cydia.sticktron.com
 ===============
 
-Personal Cydia repository
+My personal Cydia repository.
 
