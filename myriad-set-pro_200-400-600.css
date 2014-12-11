@@ -1,0 +1,23 @@
+@font-face {
+	font-family:'Myriad Set Pro';
+	font-style:normal;
+	font-weight:200;
+	src:url("http://www.apple.com/v/fonts/a/myriad/myriad-set-pro_text.eot?") format("eot"), url("http://www.apple.com/v/fonts/a/myriad/myriad-set-pro_thin.woff") format("woff"), url("http://www.apple.com/v/fonts/a/myriad/myriad-set-pro_thin.ttf") format("truetype");
+	/* Copyright (c) 1992 Adobe Systems Incorporated. All Rights Reserved. Myriad is a trademark of Adobe Systems Incorporated. */
+}
+
+@font-face {
+	font-family:'Myriad Set Pro';
+	font-style:normal;
+	font-weight:400;
+	src:url("http://www.apple.com/v/fonts/a/myriad/myriad-set-pro_text.eot?") format("eot"), url("http://www.apple.com/v/fonts/a/myriad/myriad-set-pro_text.woff") format("woff"), url("http://www.apple.com/v/fonts/a/myriad/myriad-set-pro_text.ttf") format("truetype");
+	/* Copyright (c) 1992 Adobe Systems Incorporated. All Rights Reserved. Myriad is a trademark of Adobe Systems Incorporated. */
+}
+
+@font-face {
+	font-family:'Myriad Set Pro';
+	font-style:normal;
+	font-weight:600;
+	src:url("http://www.apple.com/v/fonts/a/myriad/myriad-set-pro_text.eot?") format("eot"), url("http://www.apple.com/v/fonts/a/myriad/myriad-set-pro_semibold.woff") format("woff"), url("http://www.apple.com/v/fonts/a/myriad/myriad-set-pro_semibold.ttf") format("truetype");
+	/* Copyright (c) 1992 Adobe Systems Incorporated. All Rights Reserved. Myriad is a trademark of Adobe Systems Incorporated. */
+}
