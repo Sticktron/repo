@@ -1,8 +1,8 @@
 Origin: Sticktron's Lab
 Label: Sticktron's Lab
 Suite: stable
-Version: 1.0
+Version: 69
 Codename: stable
 Architectures: iphoneos-arm
 Components: main
-Description: Sticktron's personal repository.
+Description: Betas, experiments and anthing else not hosted by BigBoss.
