@@ -1,7 +1,13 @@
-./remove.sh
-#./packages.sh
+#!/bin/bash
 
-#dpkg-scanpackages -m . /dev/null >Packages
-#dpkg-scanpackages -m . > Packages
-dpkg-scanpackages -m ./debs > Packages
+echo
+echo "Rebuilding package list..."
+echo "--------------------------"
+
+./dpkg-scanpackages.pl -m ./debs /dev/null >Packages
+rm -f Packages.bz2
 bzip2 Packages
+
+echo "--------------------------"
+echo "Done."
+echo
