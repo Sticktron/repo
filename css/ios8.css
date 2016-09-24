@@ -1,0 +1,9 @@
+/*
+	My modifications to HASHBANG's Basic iOS 7 CSS.
+	By Sticktron.
+*/
+
+footer { margin-top: 40px;}
+footer :first-child { margin-top: 0 }
+footer :last-child { margin-bottom: 0 }
+footer a { margin-right: 15px }
