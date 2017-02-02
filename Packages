@@ -29,22 +29,6 @@ Description: Shows alternating images on the LockScreen depending on the week.
 Author: Sticktron
 Name: Schedules Widget for Cydget
 
-Package: com.myrepospace.sticktron.weestats
-Version: 0.9.4-1
-Architecture: iphoneos-arm
-Maintainer: Sticktron <sticktron@hotmail.com>
-Installed-Size: 244
-Depends: firmware (>= 5.0)
-Filename: ./debs/com.myrepospace.sticktron.weestats_0.9.4-1_iphoneos-arm.deb
-Size: 152978
-MD5sum: 08d6661c28d369df98db3a35e697ac3a
-SHA1: 78a5eb979af937fe6146d1e36875588656dd1764
-SHA256: 633287329fa8b13c292ca41eed9f2a12ba2890103ecbde494c5cab21a92fb4dd
-Section: Widgets
-Description: A WeeApp that lives in the iOS 5 Notification Center, and provides fast access to system information and utility toggles.
-Author: Sticktron
-Name: WeeStats Widget
-
 Package: com.sticktron.ahahah
 Version: 2.0-beta-one
 Architecture: iphoneos-arm
@@ -76,42 +60,6 @@ Section: Addons (Ah!Ah!Ah!)
 Description: This is an example of a user-created theme package for for Ah!Ah!Ah!
 Author: Sticktron <sticktron@hotmail.com>
 Name: Ah!Ah!Ah! Sample Theme
-
-Package: com.sticktron.darkmessages
-Version: 1.0.4
-Architecture: iphoneos-arm
-Maintainer: Sticktron <sticktron@hotmail.com>
-Installed-Size: 792
-Pre-Depends: firmware (>= 10.0)
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.sticktron.darkmessages_1.0.4_iphoneos-arm.deb
-Size: 74884
-MD5sum: 48bf84698f41798c119ce854bfbb6415
-SHA1: 4cf383065100f12c7914ccf5c930e65f2d953142
-SHA256: 8a84af8fb4b4d3ffe190dd0358b23c84f80b6ac09a133207542027333d927ee9
-Section: Tweaks
-Description: Dark Theme for the Messages app.
- Change Log
- + added Settings
-Author: Sticktron <sticktron@hotmail.com>
-Name: DarkMessages (iOS 10)
-
-Package: com.sticktron.darkmessages
-Version: 1.0.5
-Architecture: iphoneos-arm
-Maintainer: Sticktron <sticktron@hotmail.com>
-Installed-Size: 732
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.sticktron.darkmessages_1.0.5_iphoneos-arm.deb
-Size: 69794
-MD5sum: ccb2b1179c1cd77539d86644b5adfcf1
-SHA1: cf606a1e3873de180e2025d07427acd224020fc4
-SHA256: 3b1381698e400194a7ce4de4653b93d46af18de2590c7d6739425eba2b637969
-Section: Tweaks
-Description: Dark mode for Messages (iOS 10)
-Author: Sticktron <sticktron@hotmail.com>
-Icon: file:///Library/PreferenceBundles/DarkMessages.bundle/icon.png
-Name: DarkMessages (iOS 10)
 
 Package: com.sticktron.doubletouchhome
 Version: 0.9.2-1
@@ -175,4 +123,21 @@ Section: Tweaks
 Homepage: http://sticktron.com
 Author: Sticktron
 Name: SlackOpenBinaries
+
+Package: com.sticktron.weestats
+Version: 0.9.4-2
+Architecture: iphoneos-arm
+Maintainer: Sticktron <sticktron@hotmail.com>
+Installed-Size: 244
+Depends: firmware (>= 5.0), firmware (<< 6.0)
+Filename: ./debs/com.sticktron.weestats_0.9.4-2_iphoneos-arm.deb
+Size: 145930
+MD5sum: 256c6f96d0901c12eac0251cdae59098
+SHA1: 71b9820a13d5351023f6535424c4d47c18a1cd2a
+SHA256: 190ba38dc60812bbb52a5c19c5411a1d27b8007ff7f8261967525426b4c4dd32
+Section: Widgets (NotificationCenter)
+Description: SBSettings alternative for iOS 5.
+ WeeStats is a widget for the Notification Center that provides fast access to system information and utility toggles.
+Author: Sticktron <sticktron@hotmail.com>
+Name: WeeStats Widget (iOS 5)
 
