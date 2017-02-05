@@ -125,6 +125,24 @@ Description: Reachability opens the AppSwitcher instead.
 Author: Sticktron
 Name: ReacherSwitcher
 
+Package: com.sticktron.reacherswitcher
+Version: 0.9.1
+Architecture: iphoneos-arm
+Maintainer: Sticktron
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: ./debs/com.sticktron.reacherswitcher_0.9.1_iphoneos-arm.deb
+Size: 6032
+MD5sum: 517cf698140bbafd4992751e90da7451
+SHA1: 0ff9317d3f779b58bd362348ebf836b4223c17bf
+SHA256: b87121f6d036d727d5ba01a7d4777a879a68352b2e4c44143bfb989e187bb242
+Section: Tweaks
+Description: Reachability opens the AppSwitcher instead.
+ Change Log
+ + Added settings.
+Author: Sticktron
+Name: ReacherSwitcher
+
 Package: com.sticktron.sob
 Version: 1.0.0-1
 Architecture: iphoneos-arm
