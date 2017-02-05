@@ -109,6 +109,22 @@ Author: Sticktron <sticktron@hotmail.com>
 Icon: file:///Applications/NCMeters9.app/AppIcon60x60@2x.png
 Name: NCMeters9
 
+Package: com.sticktron.reacherswitcher
+Version: 0.9.0
+Architecture: iphoneos-arm
+Maintainer: Sticktron
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.sticktron.reacherswitcher_0.9.0_iphoneos-arm.deb
+Size: 3224
+MD5sum: d3fb85ed345e2dcda3b2e01e5b45bd2e
+SHA1: 9c1e8dfcb851b6e1c65a8207f640c1e96533d33a
+SHA256: 35be1d4ee0eeebd45e63a61ff42da2536ac18104b1cdce4f373b27d04ac716ae
+Section: Tweaks
+Description: Reachability opens the AppSwitcher instead.
+Author: Sticktron
+Name: ReacherSwitcher
+
 Package: com.sticktron.sob
 Version: 1.0.0-1
 Architecture: iphoneos-arm
