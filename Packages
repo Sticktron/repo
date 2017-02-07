@@ -61,6 +61,25 @@ Description: This is an example of a user-created theme package for for Ah!Ah!Ah
 Author: Sticktron <sticktron@hotmail.com>
 Name: Ah!Ah!Ah! Sample Theme
 
+Package: com.sticktron.darkmessages
+Version: 1.1.2-beta
+Architecture: iphoneos-arm
+Maintainer: Sticktron <sticktron@hotmail.com>
+Installed-Size: 868
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.sticktron.darkmessages_1.1.2-beta_iphoneos-arm.deb
+Size: 73736
+MD5sum: e5f505ea8c377a656ea74e892c0fc4d3
+SHA1: 5268777ba9551182d1588e9ba3c781e972f3f459
+SHA256: c388cc2cf94c14b62f368cd5ba87cd54cb65821862f8ad433a9e42f6a66f28b6
+Section: Tweaks
+Description: Dark mode for Messages (iOS 10).
+ Change Log
+ + Added support for Noctis
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Library/PreferenceBundles/DarkMessages.bundle/icon.png
+Name: DarkMessages (iOS 10)
+
 Package: com.sticktron.doubletouchhome
 Version: 0.9.2-1
 Architecture: iphoneos-arm
