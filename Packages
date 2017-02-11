@@ -151,11 +151,11 @@ Maintainer: Sticktron <sticktron@hotmail.com>
 Installed-Size: 244
 Depends: firmware (>= 5.0), firmware (<< 6.0)
 Filename: ./debs/com.sticktron.weestats_0.9.4-2_iphoneos-arm.deb
-Size: 145930
-MD5sum: 256c6f96d0901c12eac0251cdae59098
-SHA1: 71b9820a13d5351023f6535424c4d47c18a1cd2a
-SHA256: 190ba38dc60812bbb52a5c19c5411a1d27b8007ff7f8261967525426b4c4dd32
-Section: Widgets (NotificationCenter)
+Size: 146046
+MD5sum: 2b6706f084d375ebe7f0c09031af1438
+SHA1: e903ee463e842cf65fdc94a23e9a328583c8d129
+SHA256: f5d7b1fee73dde79cc8663785f8adb3d617fa177c43345f45dcab909536f21f5
+Section: Widgets
 Description: SBSettings alternative for iOS 5.
  WeeStats is a widget for the Notification Center that provides fast access to system information and utility toggles.
 Author: Sticktron <sticktron@hotmail.com>
