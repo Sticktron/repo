@@ -135,13 +135,14 @@ Architecture: iphoneos-arm
 Installed-Size: 88
 Depends: mobilesubstrate, firmware (>= 5.0)
 Filename: ./debs/com.sticktron.sob_1.0.0-1_iphoneos-arm.deb
-Size: 3970
-MD5sum: 5d3f8d75c01467c07623573afa0fd358
-SHA1: 097bdbd5c743756f53359ba106483199256c541c
-SHA256: d01331a4fe5aff264853b33fbbbb7be55ee9c4464e1a1173c0937d5d2c96ca47
+Size: 4084
+MD5sum: e5fc1d5c3687c0fa5b182b5941fc32be
+SHA1: b0124737c9834785eff1d61d2999ec071a5ef39d
+SHA256: 86ac14c4c69099c5f4d32884821c2cd2ae39c613d9b30e36ccfb566be5babe12
 Section: Tweaks
 Homepage: http://sticktron.com
-Author: Sticktron
+Description: Let Slack app open binary attachments.
+Author: Sticktron <sticktron@hotmail.com>
 Name: SlackOpenBinaries
 
 Package: com.sticktron.weestats
