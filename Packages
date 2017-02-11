@@ -36,15 +36,15 @@ Maintainer: Sticktron
 Installed-Size: 6268
 Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.sticktron.ahahah_2.0-beta-one_iphoneos-arm.deb
-Size: 4723186
-MD5sum: 95721ad4c5efef09c7664cd0ee5c24d9
-SHA1: 0522108a2157b4a7760632673c65992daec627bd
-SHA256: 772d21e7668693fc281d2962618e2ff62ee726238d436e83044dd852153cde56
+Size: 4723326
+MD5sum: 35afa65d91ff884f616eab034d8705cf
+SHA1: 138a768e06368e2a026fac3bd92d6d96eab53561
+SHA256: adbe5406aa03ae93c7bf31ddc2ca895eee462cb451bb569618ef8d86dc856147
 Section: Tweaks
 Description: Themeable unlock error alarm inspired by Jurassic Park.
 Author: Sticktron <sticktron@hotmail.com>
 Icon: file:///Library/PreferenceBundles/AhAhAhPrefs.bundle/Icon.png
-Name: Ah!Ah!Ah! (iOS 9)
+Name: Ah!Ah!Ah! Beta (iOS 7/8/9)
 
 Package: com.sticktron.ahahah-sample-theme
 Version: 1.0
@@ -99,15 +99,15 @@ Architecture: iphoneos-arm
 Maintainer: Sticktron <sticktron@hotmail.com>
 Installed-Size: 748
 Filename: ./debs/com.sticktron.ncmeters9_0.9-7_iphoneos-arm.deb
-Size: 167464
-MD5sum: 248951c9a8a8eb52cc4e263170be4fdd
-SHA1: 83b6590aff79a2dd5aacbfd9bfd02c56c95c8bf5
-SHA256: b1fce619616e3f0df375dfd22527f83272ce6458fad3e7c2de6cb494eb6a1f50
-Section: Addons (NotificationCenter)
+Size: 167590
+MD5sum: d40836231faa183d9c3845b05a8df07f
+SHA1: 83cb32f83c19dd872dbaf590a372daa73eb5336d
+SHA256: 105c195e8039401233c061834665c72372d7cd93db9bc40e579b4012bc44a55b
+Section: Widgets
 Description: System stats widget for the Notification Center.
 Author: Sticktron <sticktron@hotmail.com>
 Icon: file:///Applications/NCMeters9.app/AppIcon60x60@2x.png
-Name: NCMeters9
+Name: NCMeters9 (iOS 9/10)
 
 Package: com.sticktron.reacherswitcher
 Version: 0.9.2
