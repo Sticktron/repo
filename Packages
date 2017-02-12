@@ -61,6 +61,27 @@ Description: This is an example of a user-created theme package for for Ah!Ah!Ah
 Author: Sticktron <sticktron@hotmail.com>
 Name: Ah!Ah!Ah! Sample Theme
 
+Package: com.sticktron.darkmessages
+Version: 1.1.3~b1
+Architecture: iphoneos-arm
+Maintainer: Sticktron <sticktron@hotmail.com>
+Installed-Size: 872
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.sticktron.darkmessages_1.1.3~b1_iphoneos-arm.deb
+Size: 78990
+MD5sum: b40e21828bf68ba8fe67ad21dfbb1559
+SHA1: 73031ff7d19cea841f162eb7325de4284bc40005
+SHA256: 76d48042d595b348e642ba34140eecb2dc9d7451beca3752db0cfb132995d350
+Section: Tweaks
+Description: Dark mode for the Messages app.
+ Change Log
+ + Quick Reply is now themed
+ + handle changing mode when Messages is open more gracefully
+ + better Noctis and NightShift control behaviour
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Library/PreferenceBundles/DarkMessages.bundle/icon.png
+Name: DarkMessages Beta (iOS 10)
+
 Package: com.sticktron.doubletouchhome
 Version: 0.9.2-1
 Architecture: iphoneos-arm
