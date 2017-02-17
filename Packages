@@ -14,21 +14,6 @@ Description: Make eBay search for 128codes.
 Author: Sticktron
 Name: code128
 
-Package: com.myrepospace.sticktron.scheduleswidget
-Version: 0.0.2
-Architecture: iphoneos-arm
-Maintainer: Sticktron
-Depends: cydget
-Filename: ./debs/com.sticktron.scheduleswidget.deb
-Size: 106472
-MD5sum: 76a773c83e01ae9ce928aad49d07a206
-SHA1: 61524fe9ed61a47982141d411955ac21551184c1
-SHA256: db2b6fd1ace14ba4e5eaa9c4da295ec60dfad62d53148192d565bd6d1b17bbf2
-Section: Addons (Cydget)
-Description: Shows alternating images on the LockScreen depending on the week.
-Author: Sticktron
-Name: Schedules Widget for Cydget
-
 Package: com.sticktron.ahahah
 Version: 2.0-beta-one
 Architecture: iphoneos-arm
@@ -82,38 +67,6 @@ Author: Sticktron <sticktron@hotmail.com>
 Icon: file:///Library/PreferenceBundles/DarkMessages.bundle/icon.png
 Name: DarkMessages Beta (iOS 10)
 
-Package: com.sticktron.doubletouchhome
-Version: 0.9.2-1
-Architecture: iphoneos-arm
-Installed-Size: 88
-Depends: mobilesubstrate, libactivator
-Filename: ./debs/com.sticktron.doubletouchhome_0.9.2-1_iphoneos-arm.deb
-Size: 7964
-MD5sum: 8478c5b7d1f0508eecdb3ccaff8255ea
-SHA1: aecaacd6498befe364eebc6cb98cf64cb3847ccd
-SHA256: da617e2029248c959f87298a5a6b5fd963ed7f1f6e841d982932a05d02c644ed
-Section: Addons (Activator)
-Priority: optional
-Description: Double touch on Home event for the libactivator API.
-Author: Sticktron
-Name: DoubleTouchHome
-
-Package: com.sticktron.longtouchhome
-Version: 0.9.0-2
-Architecture: iphoneos-arm
-Installed-Size: 92
-Depends: mobilesubstrate, libactivator
-Filename: ./debs/com.sticktron.longtouchhome_0.9.0-2_iphoneos-arm.deb
-Size: 8080
-MD5sum: dfc4460e0915c1eb7636b3a4f95f24de
-SHA1: f8ceedc20048a6dd8838e22a0351d9c6bbba23e7
-SHA256: d59d35c6c2c0ddd5d698cb4df24fbc871c851ab25eb4fe3f003c2c2e3a6a77d9
-Section: Addons (Activator)
-Priority: optional
-Description: Long touch on Home event for the libactivator API!
-Author: Sticktron
-Name: LongTouchHome
-
 Package: com.sticktron.ncmeters9
 Version: 0.9-7
 Architecture: iphoneos-arm
@@ -149,22 +102,6 @@ Description: Reachability opens the AppSwitcher instead.
 Author: Sticktron
 Icon: file:///Library/PreferenceBundles/ReacherSwitcher.bundle/Icon.png
 Name: ReacherSwitcher (iOS 10)
-
-Package: com.sticktron.sob
-Version: 1.0.0-1
-Architecture: iphoneos-arm
-Installed-Size: 88
-Depends: mobilesubstrate, firmware (>= 5.0)
-Filename: ./debs/com.sticktron.sob_1.0.0-1_iphoneos-arm.deb
-Size: 4084
-MD5sum: e5fc1d5c3687c0fa5b182b5941fc32be
-SHA1: b0124737c9834785eff1d61d2999ec071a5ef39d
-SHA256: 86ac14c4c69099c5f4d32884821c2cd2ae39c613d9b30e36ccfb566be5babe12
-Section: Tweaks
-Homepage: http://sticktron.com
-Description: Let Slack app open binary attachments.
-Author: Sticktron <sticktron@hotmail.com>
-Name: SlackOpenBinaries
 
 Package: com.sticktron.weestats
 Version: 0.9.4-2
