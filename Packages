@@ -1,3 +1,21 @@
+Package: com.evilgoldfish.lockglyphx
+Version: 1.0~b1
+Architecture: iphoneos-arm
+Maintainer: evilgoldfish
+Installed-Size: 828
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
+Conflicts: com.evilgoldfish.lockglyph
+Provides: com.evilgoldfish.lockglyph
+Filename: ./debs/com.evilgoldfish.lockglyphx_1.0~b1_iphoneos-arm.deb
+Size: 137832
+MD5sum: 487f4f946c7073846f2ab41cdcf3cfce
+SHA1: 532911ff97defcef31eaffcbaf9d4f76e6236e46
+SHA256: 3c265420e61314269c264374a49da0a24f76528f86216151f92b08e0dbbec4c8
+Section: Tweaks
+Description: LockGlyph for iOS 10.
+Author: evilgoldfish
+Name: LockGlyphX Beta (iOS 10)
+
 Package: com.myrepospace.sticktron.code128
 Version: 0.2.0-1
 Architecture: iphoneos-arm
