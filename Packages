@@ -92,21 +92,24 @@ Author: evilgoldfish
 Name: LockGlyphX Beta (iOS 10)
 
 Package: com.evilgoldfish.lockglyphx
-Version: 1.0~b5
+Version: 1.0~b5-1
 Architecture: iphoneos-arm
 Maintainer: evilgoldfish
 Installed-Size: 592
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
 Conflicts: com.evilgoldfish.lockglyph
 Provides: com.evilgoldfish.lockglyph
-Filename: ./debs/com.evilgoldfish.lockglyphx_1.0~b5_iphoneos-arm.deb
-Size: 87878
-MD5sum: 66eb6d0e417a581a3e2ca56e196a923b
-SHA1: f9de7f05fb57604d6eabb3ccd809a6b6f7cd31dd
-SHA256: 61e1ce4847125b34134c636062b8bb159b11d9cb6a38351ff76512e4e525ca99
+Filename: ./debs/com.evilgoldfish.lockglyphx_1.0~b5-1_iphoneos-arm.deb
+Size: 88458
+MD5sum: 0235ab8563c36a91ca76fc7d752da472
+SHA1: f0dd5cf52ab96acc2cf46a97acc1a0e0d60fdb98
+SHA256: 0bb41c27eae7748656160a25771073ff2df62521720fc5c4386e158d2ed1c7e7
 Section: Tweaks
 Description: LockGlyph evolved for iOS 10.
  ChangeLog
+ b5-1
+ + fixed custom glyph not re-tinting when color changes.
+ b5
  + added option to apply custom color to custom glyphs too.
 Author: evilgoldfish
 Name: LockGlyphX (iOS 10)
