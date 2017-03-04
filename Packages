@@ -1,119 +1,3 @@
-Package: com.evilgoldfish.lockglyphx
-Version: 1.0~b1
-Architecture: iphoneos-arm
-Maintainer: evilgoldfish
-Installed-Size: 828
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
-Conflicts: com.evilgoldfish.lockglyph
-Provides: com.evilgoldfish.lockglyph
-Filename: ./debs/com.evilgoldfish.lockglyphx_1.0~b1_iphoneos-arm.deb
-Size: 137832
-MD5sum: 487f4f946c7073846f2ab41cdcf3cfce
-SHA1: 532911ff97defcef31eaffcbaf9d4f76e6236e46
-SHA256: 3c265420e61314269c264374a49da0a24f76528f86216151f92b08e0dbbec4c8
-Section: Tweaks
-Description: LockGlyph for iOS 10.
-Author: evilgoldfish
-Name: LockGlyphX Beta (iOS 10)
-
-Package: com.evilgoldfish.lockglyphx
-Version: 1.0~b2
-Architecture: iphoneos-arm
-Maintainer: evilgoldfish
-Installed-Size: 952
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
-Conflicts: com.evilgoldfish.lockglyph
-Provides: com.evilgoldfish.lockglyph
-Filename: ./debs/com.evilgoldfish.lockglyphx_1.0~b2_iphoneos-arm.deb
-Size: 193336
-MD5sum: 638d43e619f638ce9c8ac74d06192d5d
-SHA1: 83d05c3b914cb81ea48346945671aab406047b4d
-SHA256: 9fd9824e0e0f4b86e273ac8f031e0fffa30abb2773a4fb7eff71fe739ffc751c
-Section: Tweaks
-Description: LockGlyph for iOS 10.
- Change Log
- + Fix: if phone is locked from unlocked lock screen state, fingerprint glyph now resets
- + Add option to show/hide 'Press home to unlock' label
- + Add option to change 'Press home to unlock' text
- + Move lock glyph up if label is showing
- + Add option to override sound (always use the Apple Pay sound, or the classic LockGlyph sound)
- + Add option to use 'Hold to Reader' animation while idle
- + Add option to use alternate animation while scanning fingerprint
-Author: evilgoldfish
-Name: LockGlyphX Beta (iOS 10)
-
-Package: com.evilgoldfish.lockglyphx
-Version: 1.0~b3
-Architecture: iphoneos-arm
-Maintainer: evilgoldfish
-Installed-Size: 588
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
-Conflicts: com.evilgoldfish.lockglyph
-Provides: com.evilgoldfish.lockglyph
-Filename: ./debs/com.evilgoldfish.lockglyphx_1.0~b3_iphoneos-arm.deb
-Size: 87194
-MD5sum: b9cc963938e755db8da851c268b11fd0
-SHA1: 14f421d18b358c61da13afcc48eb70f76e77f536
-SHA256: d1430a4024054e40d1823e0ef2457fd8c7472843269a61f805017837e6abf65f
-Section: Tweaks
-Description: LockGlyph for iOS 10.
- Change Log
- + scanning animation respects color setting when using a custom theme
- + customizing Press Home To Unlock text doesn't hide Press Home To Open text after unlocking
- + moved glyph behind music controls
- + changed default position of glyph
- + fixed bug with ColorFlow notifications
- + Prefs: moved position settings to their own page
- + Prefs: theme list is faster and indicates if a theme has sound
- + Prefs: can choose to always use the Apple Pay sound instead of theme sounds
- + some other fixes I can't remember right now, optimizations and polish
-Author: evilgoldfish
-Name: LockGlyphX Beta (iOS 10)
-
-Package: com.evilgoldfish.lockglyphx
-Version: 1.0~b4
-Architecture: iphoneos-arm
-Maintainer: evilgoldfish
-Installed-Size: 592
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
-Conflicts: com.evilgoldfish.lockglyph
-Provides: com.evilgoldfish.lockglyph
-Filename: ./debs/com.evilgoldfish.lockglyphx_1.0~b4_iphoneos-arm.deb
-Size: 87664
-MD5sum: 5c5afb90419372026233cb1debc1ebee
-SHA1: 021a0008cdc995d1d0e433f380305bb556d2229b
-SHA256: d59c6def9208e92234f641f326dc96d8e0ec9bda906fc2c46eeba6ea955dc6e6
-Section: Tweaks
-Description: LockGlyph for iOS 10.
- Change Log
- + Added settings to deal with the glyph when the music controls are visible. You can hide the glyph, move it behind the controls, or leave it in front. The default behavior is to hide the glyph.
- + Fixed regression with tapping the glyph to unlock.
-Author: evilgoldfish
-Name: LockGlyphX Beta (iOS 10)
-
-Package: com.evilgoldfish.lockglyphx
-Version: 1.0~b5-2
-Architecture: iphoneos-arm
-Maintainer: evilgoldfish
-Installed-Size: 592
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
-Conflicts: com.evilgoldfish.lockglyph
-Provides: com.evilgoldfish.lockglyph
-Filename: ./debs/com.evilgoldfish.lockglyphx_1.0~b5-2_iphoneos-arm.deb
-Size: 89146
-MD5sum: 4c6c3cf840415e87cf136ba1b6dab924
-SHA1: 3723f485c3236026555fceb23df2fad31f9dd854
-SHA256: 05ac067802901621acfe3e4325844d631b14fb400ec4e4198876243c1f3dc9ae
-Section: Tweaks
-Description: LockGlyph evolved for iOS 10.
- ChangeLog
- b5-2
- + fixed custom glyph not re-tinting when color changes.
- b5
- + added option to apply custom color to custom glyphs too.
-Author: evilgoldfish
-Name: LockGlyphX (iOS 10)
-
 Package: com.myrepospace.sticktron.code128
 Version: 0.2.0-1
 Architecture: iphoneos-arm
@@ -182,6 +66,22 @@ Description: Dark mode for the Messages app.
 Author: Sticktron <sticktron@hotmail.com>
 Icon: file:///Library/PreferenceBundles/DarkMessages.bundle/icon.png
 Name: DarkMessages Beta (iOS 10)
+
+Package: com.sticktron.lowercasestatusbarclock
+Version: 0.9.0
+Architecture: iphoneos-arm
+Maintainer: Sticktron
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.sticktron.lowercasestatusbarclock_0.9.0_iphoneos-arm.deb
+Size: 2672
+MD5sum: 0edf61fb98e1e7c7b411a374dd5e8358
+SHA1: 02d7a8c39605b1b40e7dde3cfd8c53dada6d66c8
+SHA256: e938438a3be0f20e66d0f6eb58e43439a122dfbf8d667a8ed2c2cebc02e7200a
+Section: Tweaks
+Description: Makes the AM/PM lowercase.
+Author: Sticktron <sticktron@hotmail.com>
+Name: lowercase statusbar clock (iOS 10)
 
 Package: com.sticktron.ncmeters9
 Version: 0.9-7
