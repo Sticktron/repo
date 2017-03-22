@@ -67,6 +67,31 @@ Author: Sticktron <sticktron@hotmail.com>
 Icon: file:///Library/PreferenceBundles/DarkMessages.bundle/icon.png
 Name: DarkMessages Beta (iOS 10)
 
+Package: com.sticktron.darkmessages
+Version: 1.1.3~b2
+Architecture: iphoneos-arm
+Maintainer: Sticktron <sticktron@hotmail.com>
+Installed-Size: 1012
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.sticktron.darkmessages_1.1.3~b2_iphoneos-arm.deb
+Size: 85358
+MD5sum: e6c619220667a091b576d6a96707063c
+SHA1: d58ece235b12da53e450c1adf48d33cbecf7ca35
+SHA256: 5a9356994a707e89f5c2f794d21c2548a9f927e7226c14f900a5a3f3bc8a8b26
+Section: Tweaks
+Description: Dark mode for the Messages app.
+ [Change Log]
+ v1.1.3~b2
+ + Quick Reply changes to and from dark mode as expected.
+ + better NightShift support
+ v1.1.3~b1
+ + Quick Reply is now themed
+ + handle changing mode when Messages is open more gracefully
+ + better Noctis and NightShift control behaviour
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Library/PreferenceBundles/DarkMessages.bundle/icon.png
+Name: DarkMessages Beta (iOS 10)
+
 Package: com.sticktron.lowercasestatusbarclock
 Version: 0.9.0
 Architecture: iphoneos-arm
