@@ -47,40 +47,21 @@ Author: Sticktron <sticktron@hotmail.com>
 Name: Ah!Ah!Ah! Sample Theme
 
 Package: com.sticktron.darkmessages
-Version: 1.1.3~b1
-Architecture: iphoneos-arm
-Maintainer: Sticktron <sticktron@hotmail.com>
-Installed-Size: 872
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.sticktron.darkmessages_1.1.3~b1_iphoneos-arm.deb
-Size: 78990
-MD5sum: b40e21828bf68ba8fe67ad21dfbb1559
-SHA1: 73031ff7d19cea841f162eb7325de4284bc40005
-SHA256: 76d48042d595b348e642ba34140eecb2dc9d7451beca3752db0cfb132995d350
-Section: Tweaks
-Description: Dark mode for the Messages app.
- Change Log
- + Quick Reply is now themed
- + handle changing mode when Messages is open more gracefully
- + better Noctis and NightShift control behaviour
-Author: Sticktron <sticktron@hotmail.com>
-Icon: file:///Library/PreferenceBundles/DarkMessages.bundle/icon.png
-Name: DarkMessages Beta (iOS 10)
-
-Package: com.sticktron.darkmessages
-Version: 1.1.3~b3-1
+Version: 1.1.3~b4
 Architecture: iphoneos-arm
 Maintainer: Sticktron <sticktron@hotmail.com>
 Installed-Size: 1012
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.sticktron.darkmessages_1.1.3~b3-1_iphoneos-arm.deb
-Size: 84402
-MD5sum: 281904557276758829e09a7ed318d38b
-SHA1: e6865ed6a27257d1f65983c218720fb31349384b
-SHA256: e3ca61d098a752e260097feacb2a1d011f7f1ce95f371f41550cfc33eb1c3c57
+Filename: ./debs/com.sticktron.darkmessages_1.1.3~b4_iphoneos-arm.deb
+Size: 84578
+MD5sum: 37788ab473b003b8f5d7f04850a1a4dc
+SHA1: 1621226a9295d28afe0926c675678a14175e2078
+SHA256: fb92bc13e2cd753572df17512b1be868cd4bbef9c1704f0d03ff3c47f3888632
 Section: Tweaks
 Description: Dark mode for the Messages app.
  [Change Log]
+ v1.1.3~b4
+ + Quick Reply wasn't dying the death I had hoped for
  v1.1.3~b3
  + fixed a goof with prefs introduced in beta 2
  v1.1.3~b2
