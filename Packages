@@ -68,16 +68,16 @@ Icon: file:///Library/PreferenceBundles/DarkMessages.bundle/icon.png
 Name: DarkMessages Beta (iOS 10)
 
 Package: com.sticktron.darkmessages
-Version: 1.1.3~b3
+Version: 1.1.3~b3-1
 Architecture: iphoneos-arm
 Maintainer: Sticktron <sticktron@hotmail.com>
 Installed-Size: 1012
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.sticktron.darkmessages_1.1.3~b3_iphoneos-arm.deb
-Size: 84326
-MD5sum: 0581fb10eb705af3577485c2c2af49b6
-SHA1: 66918be846d8f183ca4ae4b4d144a751aa190dfb
-SHA256: b3165fbf4868b0fdadabe765267b85b5419daaab802017c9697d045fb8318bef
+Filename: ./debs/com.sticktron.darkmessages_1.1.3~b3-1_iphoneos-arm.deb
+Size: 84402
+MD5sum: 281904557276758829e09a7ed318d38b
+SHA1: e6865ed6a27257d1f65983c218720fb31349384b
+SHA256: e3ca61d098a752e260097feacb2a1d011f7f1ce95f371f41550cfc33eb1c3c57
 Section: Tweaks
 Description: Dark mode for the Messages app.
  [Change Log]
