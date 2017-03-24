@@ -47,16 +47,16 @@ Author: Sticktron <sticktron@hotmail.com>
 Name: Ah!Ah!Ah! Sample Theme
 
 Package: com.sticktron.darkmessages
-Version: 1.1.3~b5
+Version: 1.1.3~b5-1
 Architecture: iphoneos-arm
 Maintainer: Sticktron <sticktron@hotmail.com>
 Installed-Size: 876
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.sticktron.darkmessages_1.1.3~b5_iphoneos-arm.deb
-Size: 82288
-MD5sum: 6d371c79505729aad11f8f7da1cdd81c
-SHA1: 25ad9eafb87263c600257febb061357cb47d02e5
-SHA256: 60034947c380b714cd1a568f2a7c2024d102224261e33bba32fc3a76b4ace4f5
+Filename: ./debs/com.sticktron.darkmessages_1.1.3~b5-1_iphoneos-arm.deb
+Size: 82480
+MD5sum: 37d3427a54539e9db1544362104a9b66
+SHA1: 7ba35801df4c9ce8c5ee6e6a9d89db3706b70452
+SHA256: b309ba0565e23972c654e58c88845751de88a9d3e1004b9dde7eef64b0988952
 Section: Tweaks
 Description: Dark mode for the Messages app.
  [Change Log]
