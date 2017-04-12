@@ -46,6 +46,22 @@ Description: This is an example of a user-created theme package for for Ah!Ah!Ah
 Author: Sticktron <sticktron@hotmail.com>
 Name: Ah!Ah!Ah! Sample Theme
 
+Package: com.sticktron.batterydata
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Sticktron
+Installed-Size: 132
+Filename: ./debs/com.sticktron.batterydata_0.1.0_iphoneos-arm.deb
+Size: 5046
+MD5sum: 15a5d9acc33eb6993c1450eb6ed991c8
+SHA1: dde0581f464a922bc1e914239e19effb5a790387
+SHA256: 8e8f3fcd6b7b806a3f3a75a5ab524def05b6bbcf5d1ac156e1e7d6f22b579460
+Section: System
+Description: Prints battery data from IOKit
+Tag: role::hacker
+Author: Sticktron
+Name: batterydata
+
 Package: com.sticktron.lowercasestatusbarclock
 Version: 0.9.0
 Architecture: iphoneos-arm
