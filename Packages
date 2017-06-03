@@ -62,6 +62,23 @@ Tag: role::hacker
 Author: Sticktron
 Name: batterydata
 
+Package: com.sticktron.chargetime
+Version: 0.9.0
+Architecture: iphoneos-arm
+Maintainer: Sticktron <sticktron@hotmail.com>
+Installed-Size: 344
+Pre-Depends: firmware (>= 10.0)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.sticktron.chargetime_0.9.0_iphoneos-arm.deb
+Size: 17376
+MD5sum: 2090aa584a4461ce94792b9c2c449ef7
+SHA1: 8699915783ecd889a4230f614ad124afe978f79f
+SHA256: 2e35608e8d01d5e769b2bcd8269aefd78552ffcbc4b3ab56ca20f75d01802a0b
+Section: Tweaks
+Description: Shows time left until charged on the LockScreen.
+Author: Sticktron <sticktron@hotmail.com>
+Name: ChargeTime (iOS 10)
+
 Package: com.sticktron.lowercasestatusbarclock
 Version: 0.9.0
 Architecture: iphoneos-arm
