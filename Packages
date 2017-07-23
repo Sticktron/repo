@@ -1,18 +1,38 @@
-Package: com.myrepospace.sticktron.code128
-Version: 0.2.0-1
+Package: com.sticktron.Retinasizer
+Version: 1.1.0~beta-1
 Architecture: iphoneos-arm
 Maintainer: Sticktron
-Installed-Size: 208
-Depends: mobilesubstrate
-Filename: ./debs/com.sticktron.code128_0.2.0-1_iphoneos-arm.deb
-Size: 21786
-MD5sum: 60ca8b3fadfce08b060bc3d19797cb19
-SHA1: ac90dfbca08c37419a4beec18be71193b8c7e2ef
-SHA256: 84b89bc05f1c37719ce5bdae1583843037b0812d4042d9d1ce828b6218571bab
+Installed-Size: 88
+Depends: firmware (>= 4.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.sticktron.Retinasizer_1.1.0~beta-1_iphoneos-arm.modified.deb
+Size: 5398
+MD5sum: 5362770c26a0c93db5b785d088ea8a59
+SHA1: 0c7097337e37a0e045ca822bddadf3d8e98bf6db
+SHA256: a7e01eccfa7029190828ac544d9fafe40613aec907e8f1913d19ac21f4efb9af
 Section: Tweaks
-Description: Make eBay search for 128codes.
+Homepage: http://www.sticktron.net
+Description: Forces Retina resolution rendering in OpenGL-based apps.
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Library/PreferenceBundles/RetinasizerSettings.bundle/Icon@2x.png
+Name: Retinasizer (iOS 4)
+
+Package: com.sticktron.Retinasizer
+Version: 1.1.0~beta-1
+Architecture: iphoneos-arm
+Maintainer: Sticktron
+Installed-Size: 88
+Depends: firmware (>= 4.0), mobilesubstrate, preferenceloader
+Filename: ./debs/orig/com.sticktron.Retinasizer_1.1.0~beta-1_iphoneos-arm.deb
+Size: 6870
+MD5sum: edf09a3c8627164aef30a0c49e39eb19
+SHA1: 63e2b66bc9ae1a69078a67a2f325ec53bf9a47c4
+SHA256: 50f66fcae2b2080120068b83fd1c788476b4a5583b45804f00820bf3214b7790
+Section: Tweaks
+Homepage: http://www.sticktron.com
+Description: Forces Retina resolution rendering in OpenGL-based apps.
 Author: Sticktron
-Name: code128
+Icon: file:///Library/PreferenceBundles/RetinasizerSettings.bundle/Icon@2x.png
+Name: Retinasizer
 
 Package: com.sticktron.ahahah
 Version: 2.0-beta-one
@@ -62,22 +82,89 @@ Tag: role::hacker
 Author: Sticktron
 Name: batterydata
 
-Package: com.sticktron.chargetime
-Version: 0.9.0
+Package: com.sticktron.bigbubbles
+Version: 1.0.5-1
+Architecture: iphoneos-arm
+Installed-Size: 420
+Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0)
+Filename: ./debs/com.sticktron.bigbubbles_1.0.5-1_iphoneos-arm.modified.deb
+Size: 194192
+MD5sum: fa91a6f18d9c2588ac30575f3b551503
+SHA1: ad56301fa8c3bc750124a4fc3850e37c1fc6672a
+SHA256: 68bc76516b46a11144796d5e42fa6554faa3ab985d0d46d0d3a78fa168221743
+Section: Tweaks
+Homepage: http://sticktron.net
+Description: Custom-sized image bubbles for the Messages App.
+Author: Sticktron <sticktron@hotmail.com
+Icon: file:///Library/PreferenceBundles/BigBubblesSettings.bundle/Icon@2x.png
+Name: Big Bubbles (iOS 6-7)
+
+Package: com.sticktron.bigbubbles
+Version: 1.0.5-1
+Architecture: iphoneos-arm
+Installed-Size: 420
+Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0)
+Filename: ./debs/orig/com.sticktron.bigbubbles_1.0.5-1_iphoneos-arm.deb
+Size: 208506
+MD5sum: 0c0fd12a18d1105a0b4411c15378a15c
+SHA1: 15e2e3b8687955d23a89a4e352bf6171d41fd11d
+SHA256: e80bee2ef5c1b559e318fdd9f43d3a24c82a134929bb78df06605d5af28c7ffa
+Section: Tweaks
+Homepage: http://sticktron.com
+Description: Custom-sized image bubbles for the Messages App.
+Author: Sticktron
+Icon: file:///Library/PreferenceBundles/BigBubblesSettings.bundle/Icon@2x.png
+Name: Big Bubbles
+
+Package: com.sticktron.darkmessages
+Version: 1.2.0
 Architecture: iphoneos-arm
 Maintainer: Sticktron <sticktron@hotmail.com>
-Installed-Size: 344
-Pre-Depends: firmware (>= 10.0)
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.sticktron.chargetime_0.9.0_iphoneos-arm.deb
-Size: 17376
-MD5sum: 2090aa584a4461ce94792b9c2c449ef7
-SHA1: 8699915783ecd889a4230f614ad124afe978f79f
-SHA256: 2e35608e8d01d5e769b2bcd8269aefd78552ffcbc4b3ab56ca20f75d01802a0b
+Installed-Size: 684
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.sticktron.darkmessages_1.2.0_iphoneos-arm.deb
+Size: 80646
+MD5sum: 737dd1220091d75d278c0ce88b359745
+SHA1: 9b3fed1ddd7680480bbd4a162e46a119a262b959
+SHA256: 0aa08e58fb280d68695fefd086fcbfb2e4f9a9d5723ef6497cc7adbb5993ac6a
 Section: Tweaks
-Description: Shows time left until charged on the LockScreen.
+Description: Dark theme for Messages app!
 Author: Sticktron <sticktron@hotmail.com>
-Name: ChargeTime (iOS 10)
+Icon: file:///Library/PreferenceBundles/DarkMessages.bundle/icon.png
+Name: DarkMessages (iOS 10)
+
+Package: com.sticktron.fcum
+Version: 2.2
+Architecture: iphoneos-arm
+Installed-Size: 532
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.sticktron.fcum_2.2_iphoneos-arm.modified.deb
+Size: 52736
+MD5sum: fefa33b96c824404205e9abdb0ab7043
+SHA1: 087d8083f4ab660b71f5f355255f1e59e978b31c
+SHA256: fe1d1964a55d866c36ad0ea5b5e90387059ccec6b2f3fb0583d09f538168f1f6
+Section: Tweaks
+Homepage: http://sticktron.net
+Description: Un-mirror the camera preview when taking selfies.
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Library/PreferenceBundles/FrontCamUnMirror.bundle/Icon.png
+Name: FrontCamUnMirror (iOS 7-10)
+
+Package: com.sticktron.fcum
+Version: 2.2
+Architecture: iphoneos-arm
+Installed-Size: 532
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debs/orig/com.sticktron.fcum_2.2_iphoneos-arm.deb
+Size: 52656
+MD5sum: c4dd5d0face8effe34560219bee21db9
+SHA1: d13934f1e9bf1df45c016215e4d7acb65b87be5d
+SHA256: b9a7193d072bf41e871c3d8d0cb93e98f5daa3ff96926bbdabec3f2130c5259f
+Section: Tweaks
+Description: Un-mirror the camera preview when taking selfies.
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Library/PreferenceBundles/FrontCamUnMirror.bundle/Icon.png
+Name: FrontCamUnMirror
 
 Package: com.sticktron.lowercasestatusbarclock
 Version: 0.9.0
@@ -95,12 +182,63 @@ Description: Makes the AM/PM lowercase.
 Author: Sticktron <sticktron@hotmail.com>
 Name: lowercase statusbar clock (iOS 10)
 
+Package: com.sticktron.ncmeters
+Version: 1.0.1-1
+Architecture: iphoneos-arm
+Installed-Size: ???
+Depends: firmware (>= 7.0), com.chpwn.weeloader (>= 1.4-1), preferenceloader
+Filename: ./debs/com.sticktron.ncmeters_1.0.1-1_iphoneos-arm.modified.deb
+Size: 113300
+MD5sum: 424659447db865b975cd2f0e9c83963c
+SHA1: 8da5070d0b55cb22f130b3b4f1d185dbc26a554c
+SHA256: 6b20bb74c0bb110575584a0381ce8f02366aefc7e219358e3bbd82358b903621
+Section: Addons (NotificationCenter)
+Homepage: http://sticktron.net
+Description: System stats in the Notification Center.
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Library/PreferenceBundles/NCMetersSettings.bundle/Icon.png
+Name: NCMeters (iOS 7-8)
+
+Package: com.sticktron.ncmeters
+Version: 1.0.1-1
+Architecture: iphoneos-arm
+Installed-Size: ???
+Depends: firmware (>= 7.0), com.chpwn.weeloader (>= 1.4-1), preferenceloader
+Filename: ./debs/orig/com.sticktron.ncmeters_1.0.1-1_iphoneos-arm.deb
+Size: 139606
+MD5sum: bebbb2c777a360d31577f7761e7f3352
+SHA1: ac4fa7331760df371777a2185911f2b23a7d290f
+SHA256: 6fe8dab4dc8ab5f4c981cbd6dc1c8513863fec95ad65b0a78953b074026ada8f
+Section: Addons (NotificationCenter)
+Homepage: http://sticktron.com
+Description: System stats in the Notification Center.
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Library/PreferenceBundles/NCMetersSettings.bundle/Icon.png
+Name: NCMeters
+
 Package: com.sticktron.ncmeters9
 Version: 0.9-7
 Architecture: iphoneos-arm
 Maintainer: Sticktron <sticktron@hotmail.com>
 Installed-Size: 748
-Filename: ./debs/com.sticktron.ncmeters9_0.9-7_iphoneos-arm.deb
+Filename: ./debs/com.sticktron.ncmeters9_0.9-7_iphoneos-arm.modified.deb
+Size: 167660
+MD5sum: 81c9637ed4f4b18ece077f0d92399774
+SHA1: 54092f780844e223f7c50799bec15d96d38e95c8
+SHA256: e0662ae07ae63f47eb32556c5fd85318a8ef60afc596b49ed73ff172843ebda3
+Section: Widgets
+Homepage: http://sticktron.net
+Description: System stats widget for the Notification Center.
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Applications/NCMeters9.app/AppIcon60x60@2x.png
+Name: NCMeters9 (iOS 9/10)
+
+Package: com.sticktron.ncmeters9
+Version: 0.9-7
+Architecture: iphoneos-arm
+Maintainer: Sticktron <sticktron@hotmail.com>
+Installed-Size: 748
+Filename: ./debs/orig/com.sticktron.ncmeters9_0.9-7_iphoneos-arm.deb
 Size: 167590
 MD5sum: d40836231faa183d9c3845b05a8df07f
 SHA1: 83cb32f83c19dd872dbaf590a372daa73eb5336d
@@ -110,6 +248,39 @@ Description: System stats widget for the Notification Center.
 Author: Sticktron <sticktron@hotmail.com>
 Icon: file:///Applications/NCMeters9.app/AppIcon60x60@2x.png
 Name: NCMeters9 (iOS 9/10)
+
+Package: com.sticktron.notific8
+Version: 1.1.0-1
+Architecture: iphoneos-arm
+Installed-Size: 348
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.sticktron.notific8_1.1.0-1_iphoneos-arm.modified.deb
+Size: 54686
+MD5sum: 6da4485debfcea21e12ff614f157ee36
+SHA1: 8c8be830ec4954859e82923c7233fa4a98144ab0
+SHA256: 87021f3490c131d16b8aa75fc30530e1302f81c53e4165fdb77a300371faa7e0
+Section: Addons(NotificationCenter)
+Homepage: http://sticktron.net
+Description: An iOS 8 makeover for the Notification Center.
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Library/PreferenceBundles/Notific8Settings.bundle/Icon@2x.png
+Name: Notific8 (iOS 7)
+
+Package: com.sticktron.notific8
+Version: 1.1.0-1
+Architecture: iphoneos-arm
+Installed-Size: 348
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debs/orig/com.sticktron.notific8_1.1.0-1_iphoneos-arm.deb
+Size: 75932
+MD5sum: 3d723a802bdea8168fac73d60f695bbf
+SHA1: 6a9efecde06ca96dec6afdd76a15d9175be57ca7
+SHA256: 855c8e4a474b5f5769dd498c6c63bf3991a7fc911a9f8d9ab10a4949989c7363
+Section: Addons(NotificationCenter)
+Description: An iOS 8 makeover for the Notification Center.
+Author: Sticktron
+Icon: file:///Library/PreferenceBundles/Notific8Settings.bundle/Icon@2x.png
+Name: Notific8
 
 Package: com.sticktron.reacherswitcher
 Version: 0.9.2
@@ -137,7 +308,25 @@ Architecture: iphoneos-arm
 Maintainer: Sticktron <sticktron@hotmail.com>
 Installed-Size: 244
 Depends: firmware (>= 5.0), firmware (<< 6.0)
-Filename: ./debs/com.sticktron.weestats_0.9.4-2_iphoneos-arm.deb
+Filename: ./debs/com.sticktron.weestats_0.9.4-2_iphoneos-arm.modified.deb
+Size: 146042
+MD5sum: ab4f17724e6b2d9e568d248d5e02eb68
+SHA1: ba3cd7988641ebaac94e510a300e60912d5f035e
+SHA256: ccc53191f95b5f78f97d5349c2b141ea5890e0c047f2a101e74cf87523d4f053
+Section: Widgets
+Homepage: http://sticktron.net
+Description: SBSettings alternative for iOS 5.
+ WeeStats is a widget for the Notification Center that provides fast access to system information and utility toggles.
+Author: Sticktron <sticktron@hotmail.com>
+Name: WeeStats Widget (iOS 5)
+
+Package: com.sticktron.weestats
+Version: 0.9.4-2
+Architecture: iphoneos-arm
+Maintainer: Sticktron <sticktron@hotmail.com>
+Installed-Size: 244
+Depends: firmware (>= 5.0), firmware (<< 6.0)
+Filename: ./debs/orig/com.sticktron.weestats_0.9.4-2_iphoneos-arm.deb
 Size: 146046
 MD5sum: 2b6706f084d375ebe7f0c09031af1438
 SHA1: e903ee463e842cf65fdc94a23e9a328583c8d129
@@ -147,4 +336,73 @@ Description: SBSettings alternative for iOS 5.
  WeeStats is a widget for the Notification Center that provides fast access to system information and utility toggles.
 Author: Sticktron <sticktron@hotmail.com>
 Name: WeeStats Widget (iOS 5)
+
+Package: com.sticktron.wu-lock
+Version: 1.0-1
+Architecture: iphoneos-arm
+Installed-Size: ???
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Conflicts: com.evilgoldfish.lockglyph
+Filename: ./debs/com.sticktron.wu-lock_1.0-1_iphoneos-arm.modified.deb
+Size: 272586
+MD5sum: 9f163e7f1fd52f227c4c9bb5078222d9
+SHA1: 1067e0683340cc2e2b2a8a99fba2ca9dfe304f3b
+SHA256: 9fecd094d6b4187e67ee097bc9e685bd7b67ea00ab9e166098e42136c65ec05f
+Section: Tweaks
+Homepage: http://sticktron.net
+Description: Unlock in Wu-Tang style! Customize your lock glyph, unlock text and more. Includes a set of Wu-Tang lock glyphs to get you started!
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Library/PreferenceBundles/Wu-LockSettings.bundle/icon.png
+Name: Wu-Lock (iOS 8-9)
+
+Package: com.sticktron.wu-lock
+Version: 1.0-1
+Architecture: iphoneos-arm
+Installed-Size: ???
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Conflicts: com.evilgoldfish.lockglyph
+Filename: ./debs/orig/com.sticktron.wu-lock_1.0-1_iphoneos-arm.deb
+Size: 290696
+MD5sum: 18ea08099eefdff58f9667fc43ce7b23
+SHA1: 44b7bcbc3f0d61a12ca767e59973061bc5d5e2ce
+SHA256: 677830fa1f5bf79ff0520ecbe69c95101bc8226face035ce46caaa8ba14144ed
+Section: Tweaks
+Homepage: http://sticktron.com
+Description: Unlock in Wu-Tang style! Customize your lock glyph, unlock text and more. Includes a set of Wu-Tang lock glyphs to get you started!
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Library/PreferenceBundles/Wu-LockSettings.bundle/icon.png
+Name: Wu-Lock
+
+Package: org.thebigboss.ccmeters
+Version: 2.1
+Architecture: iphoneos-arm
+Installed-Size: 508
+Depends: firmware (>= 7.0), de.j-gessner.ccloader, preferenceloader
+Filename: ./debs/org.thebigboss.ccmeters_2.1_iphoneos-arm.modified.deb
+Size: 116416
+MD5sum: 1c1b3fd7d33de199803e302b34718381
+SHA1: e0a6d714daa60e60c14757fa73d8393e46a54bea
+SHA256: ed18c2e3dd70b02b6fc6334833e3404a3ecbf14671ab5413defa35673b86b30b
+Section: Addons (ControlCenter)
+Homepage: http://sticktron.net
+Description: System stats in the Control Center.
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Library/PreferenceBundles/CCMetersSettings.bundle/Icon.png
+Name: CCMeters (iOS 7-8)
+
+Package: org.thebigboss.ccmeters
+Version: 2.1
+Architecture: iphoneos-arm
+Installed-Size: 508
+Depends: firmware (>= 7.0), de.j-gessner.ccloader, preferenceloader
+Filename: ./debs/orig/org.thebigboss.ccmeters_2.1_iphoneos-arm.deb
+Size: 116296
+MD5sum: 1cf30a8099f541586f555f3fd3ee4396
+SHA1: 8c597fea2f21610761f0aed2ce4b8afcb2790b27
+SHA256: 81b864a56e0173f1844170f0444cacdeba72f6a799e2a1dbefbd2d1cfd75fd38
+Section: Addons (ControlCenter)
+Description: System stats in the Control Center.
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Library/PreferenceBundles/CCMetersSettings.bundle/Icon.png
+Name: CCMeters
 
