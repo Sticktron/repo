@@ -17,23 +17,6 @@ Icon: file:///Library/PreferenceBundles/RetinasizerSettings.bundle/Icon@2x.png
 Name: Retinasizer (iOS 4)
 
 Package: com.sticktron.ahahah
-Version: 2.0-beta-one
-Architecture: iphoneos-arm
-Maintainer: Sticktron
-Installed-Size: 6268
-Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.sticktron.ahahah_2.0-beta-one_iphoneos-arm.deb
-Size: 4723326
-MD5sum: 35afa65d91ff884f616eab034d8705cf
-SHA1: 138a768e06368e2a026fac3bd92d6d96eab53561
-SHA256: adbe5406aa03ae93c7bf31ddc2ca895eee462cb451bb569618ef8d86dc856147
-Section: Tweaks
-Description: Themeable unlock error alarm inspired by Jurassic Park.
-Author: Sticktron <sticktron@hotmail.com>
-Icon: file:///Library/PreferenceBundles/AhAhAhPrefs.bundle/Icon.png
-Name: Ah!Ah!Ah! Beta (iOS 7/8/9)
-
-Package: com.sticktron.ahahah
 Version: 2.0-beta3
 Architecture: iphoneos-arm
 Maintainer: Sticktron
