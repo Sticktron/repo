@@ -41,17 +41,17 @@ Icon: file:///Library/PreferenceBundles/AhAhAhPrefs.bundle/Icon.png
 Name: Ah!Ah!Ah! 2.0 Beta 3 (iOS 7-10)
 
 Package: com.sticktron.ahahah-sample-theme
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Sticktron
 Depends: com.sticktron.ahahah
-Filename: ./debs/com.sticktron.ahahah-sample-theme.deb
-Size: 1600258
-MD5sum: c87e3606c7f2861617f18f6c8ad3d5b2
-SHA1: 251a38e63bac8d0854ac9179318c6b1861e8ce38
-SHA256: dee6dccf9ba8582f46a7525e0841cda36452abdc4beb3bdcbd2d7b0de1f856d8
-Section: Addons (Ah!Ah!Ah!)
-Description: This is an example of a user-created theme package for for Ah!Ah!Ah!
+Filename: ./debs/com.sticktron.ahahah-sample-theme_1.1.deb
+Size: 798822
+MD5sum: 2912684ed66109b1a465c41033c1375a
+SHA1: c6bfdb44b067ee1f224062ab8296c0aed3106fce
+SHA256: 62c789fc7e6a65303b4c36d87f7da8b9320cf13e4ef7e899096ad1b9c2f4443f
+Section: Themes (Ah!Ah!Ah!)
+Description: This is an example of a user-created theme package for for Ah!Ah!Ah! 2.
 Author: Sticktron <sticktron@hotmail.com>
 Name: Ah!Ah!Ah! Sample Theme
 
