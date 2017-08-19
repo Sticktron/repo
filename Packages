@@ -101,6 +101,31 @@ Description: App icons for breadcrumbs.
 Author: Sticktron <sticktron@hotmail.com>
 Name: Croutons Beta (iOS 9/10)
 
+Package: com.sticktron.croutons
+Version: 0.9.2
+Architecture: iphoneos-arm
+Maintainer: Sticktron
+Installed-Size: 288
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.sticktron.croutons_0.9.2_iphoneos-arm.deb
+Size: 20198
+MD5sum: 710f5f73f2fb7dc04c15cc17d75ef58e
+SHA1: c3262a467c366d5071faea8e16f717a7371f35fa
+SHA256: ff37a13d049e801fb50b8d98e8292ae2467d83d5b83231d6e8c1d3d4b5758865
+Section: Tweaks
+Description: App icons for breadcrumbs.
+ Shortens the "breadcrumb trail" StatusBar item by showing the App's icon instead of its name.
+ [ChangeLog]
+ 0.9.2
+ + added a crouton for Spotlight search breadcrumb
+ + fixed the return to Safari breadcrumb
+ - removed rocketbootstrap integration (works for me now without it, I want to see what happens in the wild).
+ _____
+ 0.9.1
+ + now uses XPC to get icons (fixes sandbox issue)
+Author: Sticktron <sticktron@hotmail.com>
+Name: Croutons Beta 2 (iOS 9/10)
+
 Package: com.sticktron.darkmessages
 Version: 1.2.0
 Architecture: iphoneos-arm
