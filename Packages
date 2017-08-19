@@ -33,6 +33,30 @@ Author: Sticktron <sticktron@hotmail.com>
 Icon: file:///Library/PreferenceBundles/AhAhAhPrefs.bundle/Icon.png
 Name: Ah!Ah!Ah! Beta (iOS 7/8/9)
 
+Package: com.sticktron.ahahah
+Version: 2.0-beta3
+Architecture: iphoneos-arm
+Maintainer: Sticktron
+Installed-Size: 6296
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.sticktron.ahahah_2.0-beta3_iphoneos-arm.deb
+Size: 4709978
+MD5sum: 262733896176adf42409214d3686af7c
+SHA1: 7cd5341700346f131ede7cb806836ee371602497
+SHA256: 34e4288fef08da532c5792ce13c76d74afe0b35930a9807ef10e82cf8dbd2d18
+Section: Tweaks
+Description: Trigger a video alarm when someone tries to unlock your phone.
+ * Import videos from your Camera Roll.
+ * Supports third-party themes.
+ * Comes with three themes, including "Ah!Ah!Ah! you didn't say the magic word!" from Jurassic Park.
+ __
+ [ChangeLog Beta 3]
+ Added iOS 10 support (probably still buggy, let me know)
+ __
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Library/PreferenceBundles/AhAhAhPrefs.bundle/Icon.png
+Name: Ah!Ah!Ah! 2.0 Beta 3 (iOS 7-10)
+
 Package: com.sticktron.ahahah-sample-theme
 Version: 1.0
 Architecture: iphoneos-arm
