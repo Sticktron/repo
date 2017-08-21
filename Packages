@@ -46,10 +46,10 @@ Architecture: iphoneos-arm
 Maintainer: Sticktron
 Depends: com.sticktron.ahahah
 Filename: ./debs/com.sticktron.ahahah-sample-theme_1.1.deb
-Size: 798822
-MD5sum: 2912684ed66109b1a465c41033c1375a
-SHA1: c6bfdb44b067ee1f224062ab8296c0aed3106fce
-SHA256: 62c789fc7e6a65303b4c36d87f7da8b9320cf13e4ef7e899096ad1b9c2f4443f
+Size: 798530
+MD5sum: 92ad2f1bbdbdb5481ff56058ca979239
+SHA1: 8c40528d407afc649a48f4f0f33649e7d0c5859a
+SHA256: fa2f361a4c132539f6b477c39e883fe092dd0acfb599bdc4ac6f52f56af77659
 Section: Themes (Ah!Ah!Ah!)
 Description: This is an example of a user-created theme package for for Ah!Ah!Ah! 2.
 Author: Sticktron <sticktron@hotmail.com>
@@ -87,51 +87,6 @@ Description: Custom-sized image bubbles for the Messages App.
 Author: Sticktron <sticktron@hotmail.com
 Icon: file:///Library/PreferenceBundles/BigBubblesSettings.bundle/Icon@2x.png
 Name: Big Bubbles (iOS 6-7)
-
-Package: com.sticktron.croutons
-Version: 0.9.1
-Architecture: iphoneos-arm
-Maintainer: Sticktron
-Installed-Size: 424
-Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap (>= 1.0.2)
-Filename: ./debs/com.sticktron.croutons_0.9.1_iphoneos-arm.deb
-Size: 20396
-MD5sum: c329331f53aff47aeae5060246e32b2d
-SHA1: 38400acfa4c7baf42790ceeb16ecd79a36f90989
-SHA256: e4b212421fdaea5859893adfe90485a766843359efb8c2728a7264611db47f5a
-Section: Tweaks
-Description: App icons for breadcrumbs.
- Shortens the "breadcrumb trail" StatusBar item by showing the App's icon instead of its name.
- [ChangeLog]
- 0.9.1
- - now uses XPC to get icons (fixes sandbox issue)
-Author: Sticktron <sticktron@hotmail.com>
-Name: Croutons Beta (iOS 9/10)
-
-Package: com.sticktron.croutons
-Version: 0.9.2
-Architecture: iphoneos-arm
-Maintainer: Sticktron
-Installed-Size: 288
-Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.sticktron.croutons_0.9.2_iphoneos-arm.deb
-Size: 20198
-MD5sum: 710f5f73f2fb7dc04c15cc17d75ef58e
-SHA1: c3262a467c366d5071faea8e16f717a7371f35fa
-SHA256: ff37a13d049e801fb50b8d98e8292ae2467d83d5b83231d6e8c1d3d4b5758865
-Section: Tweaks
-Description: App icons for breadcrumbs.
- Shortens the "breadcrumb trail" StatusBar item by showing the App's icon instead of its name.
- [ChangeLog]
- 0.9.2
- + added a crouton for Spotlight search breadcrumb
- + fixed the return to Safari breadcrumb
- - removed rocketbootstrap integration (works for me now without it, I want to see what happens in the wild).
- _____
- 0.9.1
- + now uses XPC to get icons (fixes sandbox issue)
-Author: Sticktron <sticktron@hotmail.com>
-Name: Croutons Beta 2 (iOS 9/10)
 
 Package: com.sticktron.darkmessages
 Version: 1.2.0
@@ -255,6 +210,22 @@ Description: Reachability opens the AppSwitcher instead.
 Author: Sticktron
 Icon: file:///Library/PreferenceBundles/ReacherSwitcher.bundle/Icon.png
 Name: ReacherSwitcher (iOS 10)
+
+Package: com.sticktron.sshicon
+Version: 0.9.0
+Architecture: iphoneos-arm
+Maintainer: Sticktron
+Installed-Size: 348
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.sticktron.sshicon_0.9.0_iphoneos-arm.deb
+Size: 44690
+MD5sum: d22dc65a8e100b2878146da86901b44b
+SHA1: 588ad200a6ce76ddd342effb408f45133ff6484f
+SHA256: 486e375339c9e1465af3f16fbac6db88929b7ce07774d5e68d53103d897108ae
+Section: Tweaks
+Description: A statusbar icon for SSH connections!
+Author: Sticktron <sticktron@hotmail.com>
+Name: SSH Icon Beta (iOS 10)
 
 Package: com.sticktron.weestats
 Version: 0.9.4-2
