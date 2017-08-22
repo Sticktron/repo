@@ -227,6 +227,22 @@ Description: A statusbar icon for SSH connections!
 Author: Sticktron <sticktron@hotmail.com>
 Name: SSH Icon Beta (iOS 10)
 
+Package: com.sticktron.sshicon
+Version: 0.9.1
+Architecture: iphoneos-arm
+Maintainer: Sticktron
+Installed-Size: 364
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.sticktron.sshicon_0.9.1_iphoneos-arm.deb
+Size: 48086
+MD5sum: ea433cd0aac0b96124ca7bc7ec94b144
+SHA1: c9d9b23956fe907d4281e3a28de432c02e18b958
+SHA256: edb5ebb2a54edcac1e9ff464261076fc9bf89b878ed09b356b06ed305613aa81
+Section: Tweaks
+Description: A statusbar icon for SSH connections!
+Author: Sticktron <sticktron@hotmail.com>
+Name: SSH Icon Beta (iOS 10)
+
 Package: com.sticktron.weestats
 Version: 0.9.4-2
 Architecture: iphoneos-arm
