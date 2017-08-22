@@ -234,12 +234,19 @@ Maintainer: Sticktron
 Installed-Size: 364
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.sticktron.sshicon_0.9.1_iphoneos-arm.deb
-Size: 48086
-MD5sum: ea433cd0aac0b96124ca7bc7ec94b144
-SHA1: c9d9b23956fe907d4281e3a28de432c02e18b958
-SHA256: edb5ebb2a54edcac1e9ff464261076fc9bf89b878ed09b356b06ed305613aa81
+Size: 48176
+MD5sum: b856146db42d09b25806473ebc8b5d72
+SHA1: f24d69e0111850ac42b81130c7c81fd940a498b4
+SHA256: 7225f3030dec7ff6eb541ecea940a3cf5d6ba7b688620e747f7366459df661c2
 Section: Tweaks
 Description: A statusbar icon for SSH connections!
+ [ChangeLog]
+ 0.9.1
+ - choose an icon from settings
+ - fixed left/right alignment setting
+ - new default icon similar to the default VPN item
+ _____
+ 0.9.0 - Initial release
 Author: Sticktron <sticktron@hotmail.com>
 Name: SSH Icon Beta (iOS 10)
 
