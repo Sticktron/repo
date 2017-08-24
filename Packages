@@ -260,6 +260,40 @@ Description: A statusbar icon for SSH connections.
 Author: Sticktron <sticktron@hotmail.com>
 Name: SSH Icon Beta (iOS 10)
 
+Package: com.sticktron.sshicon
+Version: 0.9.3
+Architecture: iphoneos-arm
+Maintainer: Sticktron
+Installed-Size: 524
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, org.thebigboss.libstatus9
+Filename: ./debs/com.sticktron.sshicon_0.9.3_iphoneos-arm.deb
+Size: 66314
+MD5sum: 3ffaac77d8d2a67a2ba0f7a144fc9e30
+SHA1: f684bbb4de5b30a5fa0fccfd7ce49506540fe7bb
+SHA256: 6d4062df4cc25913554d87f7dd19854fbe47ab3ef3e7dac49da56b7b5ac57115
+Section: Tweaks
+Description: A statusbar icon for SSH connections.
+ [ChangeLog]
+ 0.9.3
+ - added rounded SSH icon
+ - added icon previews to settings
+ - change the icon without respringing
+ - choose update interval setting
+ - fixed missing libstatusbar dependency
+ - added tap recognizer to icon
+ _____
+ 0.9.2
+ - added PuTTY icon
+ _____
+ 0.9.1
+ - choose an icon from settings
+ - fixed left/right alignment setting
+ - new default icon similar to the default VPN item
+ _____
+ 0.9.0 - Initial release
+Author: Sticktron <sticktron@hotmail.com>
+Name: SSH Icon Beta (iOS 9-10)
+
 Package: com.sticktron.weestats
 Version: 0.9.4-2
 Architecture: iphoneos-arm
