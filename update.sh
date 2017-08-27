@@ -1,6 +1,10 @@
 #!/bin/bash
 
 echo
+
+./clean.sh
+
+echo
 echo "Rebuilding package list..."
 echo "--------------------------"
 
